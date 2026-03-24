@@ -11,7 +11,7 @@ public class ValorVsReferencia {
 
         System.out.println(a + " " + b);
 
-        Data d1 = new Data(1, 6, 2022);
+        Data d1 = new Data();
         Data d2 = d1;
 
         d1.dia = 31;
